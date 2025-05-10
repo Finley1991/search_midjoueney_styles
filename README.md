@@ -13,12 +13,13 @@
 pip install -r requirements.txt
 ```
 ## 数据要求
-参考数据依赖准备部分，确保你已经准备好数据集。
+参考`数据依赖准备`部分，确保你已经准备好数据集。
 
 ### 主要依赖
 - FastAPI: 用于构建 API 服务
 - Gradio: 用于构建 Web 界面
 - SentenceTransformer: 用于文本嵌入
+- Ollama: 用于图片描述生成
 - FAISS: 用于向量搜索
 - SQLite3: 用于数据存储
 
